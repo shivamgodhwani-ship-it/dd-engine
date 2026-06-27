@@ -3,6 +3,7 @@
 ### Commercial Due Diligence, Automated.
 
 **[Live Demo](https://dd-engine.streamlit.app)** · Built for Polaris Fellowship 2026
+![Uploading Animation.gif…]()
 
 ---
 
