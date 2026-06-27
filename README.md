@@ -1,9 +1,9 @@
-```markdown
 # DD Engine
 ### Commercial Due Diligence, Automated.
 
-**[Live Demo](https://dd-engine.streamlit.app)** · Built for Polaris Fellowship 2026
-![Uploading Animation.gif…]()
+**Built for Polaris Fellowship 2026**
+
+> Live deployment paused — NewsAPI free tier restricts server-side requests. Run locally with free API keys from newsapi.org and console.groq.com in under 5 minutes.
 
 ---
 
@@ -22,14 +22,13 @@ Bain & Company's own research flags a core inefficiency in how enterprises appro
 ## How It Works
 
 ```
-
 Company Name Input
         │
         ▼
    DATA PIPELINE
-   ├── 15 general news articles    (NewsAPI)
+   ├── 15 general news articles         (NewsAPI)
    ├── 15 funding & investment articles  (NewsAPI)
-   └── 10 culture & sentiment articles  (NewsAPI)
+   └── 10 culture & sentiment articles   (NewsAPI)
         │
         ▼
    AI SYNTHESIS
@@ -103,12 +102,14 @@ pip install -r requirements.txt
 ```
 
 Create `.env`:
+
 ```
 NEWS_API_KEY=your_key_from_newsapi.org
 GROQ_API_KEY=your_key_from_console.groq.com
 ```
 
 Run:
+
 ```bash
 streamlit run frontend/app.py
 ```
@@ -138,7 +139,7 @@ dd_engine/
 ## Known Limitations
 
 - LLMs occasionally surface unverifiable specifics despite temperature=0 — all outputs should be verified before use
-- NewsAPI free tier caps at 15 results per query — a production version would use premium data sources
+- NewsAPI free tier restricts server-side requests — a production version would use premium data sources
 - Wikipedia infobox parsing returns Unknown for companies with non-standard structures — conservative by design, no fabrication
 - This is not investment advice
 
@@ -153,14 +154,3 @@ Built to demonstrate what's possible when engineering intuition meets consulting
 ---
 
 *For research and demonstration purposes only. Not investment advice.*
-```
-
-**Ctrl+S** then:
-
-```powershell
-git add README.md
-git commit -m "Add final README"
-git push
-```
-
-Then go check your GitHub repo — it'll look sharp. 🚀
