@@ -1,3 +1,4 @@
+<img width="1905" height="948" alt="Animation" src="https://github.com/user-attachments/assets/7d9d47df-d6fc-43da-a9e0-b4b0e6822cb2" />
 # DD Engine
 ### Commercial Due Diligence, Automated.
 
